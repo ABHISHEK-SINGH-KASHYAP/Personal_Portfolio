@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70e672a21c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer And Designer</p>
+                <h1>Hello there, I am <span>Abhishek</span> <br>Singh Kashyap from India</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG20231213133817.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I appreciate you visiting my webpage which also acts as my resume.
+                        Hello my name is Abhishek Singh Kashyap. I am a student of Computer Science & Engineering branch, currently pursuing my B.Tech degree from IMS Engineering College,Ghaziabad.
+                        I have a variety of interests in full stack Development,Frontend and Backend development. I know many languages such as Python,C,C++,HTML5,CSS3,Javascript and many more.
+                        This website is basically one of my Web Development project which is built using HTML. Here one can also find ideas for projects in different languages. 
+                        Thanks again for reading this, because of people like you, it exists and prospers!
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>Developing Web Apps</li>
+                            <li><span>Web Designing</span><br>Designing Web App Interfaces</li>
+                            <li><span>Android App Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Java Development Virtual Internship</span><br>Devoloping Applications with Java<br> March 2023</li>
+                            <li><span>Web Development and Designing Internship</span><br>Development and Designing Web App Interfaces<br> April 2023</li>
+                            <li><span>Android App Development Internship</span><br>Building Android Applications<br> May 2023</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech Graduate from IMS Engineering College, Ghaziabad</span><br>2021-25</li>
+                            <li><span>Grade 12 from O.P. Jindal School, Raigarh</span><br>2021</li>
+                            <li><span>Grade 10 from O.P. Jindal School, Raigarh</span><br>2019</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am available to provide Web Development and Designing services on Freelancer basis as well, 
+                        in case any start-ups are not currently in position to hire right now.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I am available to provide Web Development and Designing services on Freelancer basis as well, 
+                        in case any start-ups are not currently in position to hire right now.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Design</h2>
+                    <p>I am available to provide Web Development and Designing services on Freelancer basis as well, 
+                        in case any start-ups are not currently in position to hire right now.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------portfolio----------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/i-can-do-data-entry-job-with100accurate-work-on-limited-time.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the talented people around the world.
+                        Download from Play Store.
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/1432.png_1200.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>This app connects you to the talented people around the world.
+                        Download from Play Store.
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-----------------contact----------------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>abhisheksinghkashyap91@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9098279431</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/abhishek-singh-kashyap-00577523a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ABHISHEK-SINGH-KASHYAP"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/best format resume mine.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your E-Mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Details have been sent successfully.</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Abhishek.</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyFfp2H_4BYMNDGQJ-qca21ecI-Gpe8dStQCIKVcJpICI_cUHdFf0pH5c3UW5yWyruI/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
+
